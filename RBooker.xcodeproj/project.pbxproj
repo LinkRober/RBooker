@@ -1,0 +1,687 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		163432729353B6A9C6D31076 /* Pods_RBooker.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 16C9122617FB7D3B8F12B8E4 /* Pods_RBooker.framework */; };
+		8A1033AF1E0E6966007E401B /* RBViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A1033AE1E0E6966007E401B /* RBViewController.swift */; };
+		8A1033B11E0E69C5007E401B /* RBWelcomeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A1033B01E0E69C5007E401B /* RBWelcomeController.swift */; };
+		8A1033B31E0E738B007E401B /* RBLoginController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A1033B21E0E738B007E401B /* RBLoginController.swift */; };
+		8A34A1321E07848D002151EE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A34A1311E07848D002151EE /* AppDelegate.swift */; };
+		8A34A1341E07848D002151EE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A34A1331E07848D002151EE /* ViewController.swift */; };
+		8A34A1371E07848D002151EE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8A34A1351E07848D002151EE /* Main.storyboard */; };
+		8A34A13A1E07848D002151EE /* RBooker.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 8A34A1381E07848D002151EE /* RBooker.xcdatamodeld */; };
+		8A34A13C1E07848D002151EE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8A34A13B1E07848D002151EE /* Assets.xcassets */; };
+		8A34A13F1E07848D002151EE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8A34A13D1E07848D002151EE /* LaunchScreen.storyboard */; };
+		8A34A14A1E07848E002151EE /* RBookerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A34A1491E07848E002151EE /* RBookerTests.swift */; };
+		8A34A1551E07848E002151EE /* RBookerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A34A1541E07848E002151EE /* RBookerUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8A34A1461E07848E002151EE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8A34A1261E07848D002151EE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8A34A12D1E07848D002151EE;
+			remoteInfo = RBooker;
+		};
+		8A34A1511E07848E002151EE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8A34A1261E07848D002151EE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8A34A12D1E07848D002151EE;
+			remoteInfo = RBooker;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		16C9122617FB7D3B8F12B8E4 /* Pods_RBooker.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RBooker.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4730AE28EA73428E5CB0FE4D /* Pods-RBooker.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RBooker.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RBooker/Pods-RBooker.debug.xcconfig"; sourceTree = "<group>"; };
+		8A1033AE1E0E6966007E401B /* RBViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RBViewController.swift; sourceTree = "<group>"; };
+		8A1033B01E0E69C5007E401B /* RBWelcomeController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RBWelcomeController.swift; sourceTree = "<group>"; };
+		8A1033B21E0E738B007E401B /* RBLoginController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RBLoginController.swift; sourceTree = "<group>"; };
+		8A34A12E1E07848D002151EE /* RBooker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RBooker.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8A34A1311E07848D002151EE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8A34A1331E07848D002151EE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		8A34A1361E07848D002151EE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8A34A1391E07848D002151EE /* RBooker.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = RBooker.xcdatamodel; sourceTree = "<group>"; };
+		8A34A13B1E07848D002151EE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8A34A13E1E07848D002151EE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8A34A1401E07848D002151EE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8A34A1451E07848E002151EE /* RBookerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RBookerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8A34A1491E07848E002151EE /* RBookerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RBookerTests.swift; sourceTree = "<group>"; };
+		8A34A14B1E07848E002151EE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8A34A1501E07848E002151EE /* RBookerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RBookerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8A34A1541E07848E002151EE /* RBookerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RBookerUITests.swift; sourceTree = "<group>"; };
+		8A34A1561E07848E002151EE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B0D0A7C95FA54DC1CF8BD609 /* Pods-RBooker.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RBooker.release.xcconfig"; path = "Pods/Target Support Files/Pods-RBooker/Pods-RBooker.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8A34A12B1E07848D002151EE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				163432729353B6A9C6D31076 /* Pods_RBooker.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8A34A1421E07848E002151EE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8A34A14D1E07848E002151EE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8A1033AB1E0E68A0007E401B /* LoginManger */ = {
+			isa = PBXGroup;
+			children = (
+				8A1033B21E0E738B007E401B /* RBLoginController.swift */,
+			);
+			path = LoginManger;
+			sourceTree = "<group>";
+		};
+		8A1033AC1E0E68EE007E401B /* Welcome */ = {
+			isa = PBXGroup;
+			children = (
+				8A1033B01E0E69C5007E401B /* RBWelcomeController.swift */,
+			);
+			path = Welcome;
+			sourceTree = "<group>";
+		};
+		8A1033AD1E0E6927007E401B /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				8A1033AE1E0E6966007E401B /* RBViewController.swift */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		8A34A1251E07848D002151EE = {
+			isa = PBXGroup;
+			children = (
+				8A34A1301E07848D002151EE /* RBooker */,
+				8A34A1481E07848E002151EE /* RBookerTests */,
+				8A34A1531E07848E002151EE /* RBookerUITests */,
+				8A34A12F1E07848D002151EE /* Products */,
+				93F17AD51DCD5AECAFE54A1B /* Pods */,
+				B39460C300576C3ED84B16A0 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		8A34A12F1E07848D002151EE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8A34A12E1E07848D002151EE /* RBooker.app */,
+				8A34A1451E07848E002151EE /* RBookerTests.xctest */,
+				8A34A1501E07848E002151EE /* RBookerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8A34A1301E07848D002151EE /* RBooker */ = {
+			isa = PBXGroup;
+			children = (
+				8A1033AD1E0E6927007E401B /* Common */,
+				8A1033AC1E0E68EE007E401B /* Welcome */,
+				8A1033AB1E0E68A0007E401B /* LoginManger */,
+				8A34A1621E078E5F002151EE /* NetworkService */,
+				8A34A1311E07848D002151EE /* AppDelegate.swift */,
+				8A34A1331E07848D002151EE /* ViewController.swift */,
+				8A34A1351E07848D002151EE /* Main.storyboard */,
+				8A34A13B1E07848D002151EE /* Assets.xcassets */,
+				8A34A13D1E07848D002151EE /* LaunchScreen.storyboard */,
+				8A34A1401E07848D002151EE /* Info.plist */,
+				8A34A1381E07848D002151EE /* RBooker.xcdatamodeld */,
+			);
+			path = RBooker;
+			sourceTree = "<group>";
+		};
+		8A34A1481E07848E002151EE /* RBookerTests */ = {
+			isa = PBXGroup;
+			children = (
+				8A34A1491E07848E002151EE /* RBookerTests.swift */,
+				8A34A14B1E07848E002151EE /* Info.plist */,
+			);
+			path = RBookerTests;
+			sourceTree = "<group>";
+		};
+		8A34A1531E07848E002151EE /* RBookerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				8A34A1541E07848E002151EE /* RBookerUITests.swift */,
+				8A34A1561E07848E002151EE /* Info.plist */,
+			);
+			path = RBookerUITests;
+			sourceTree = "<group>";
+		};
+		8A34A1621E078E5F002151EE /* NetworkService */ = {
+			isa = PBXGroup;
+			children = (
+				8A34A1631E078E5F002151EE /* CommonService */,
+				8A34A1641E078E5F002151EE /* LoginService */,
+			);
+			path = NetworkService;
+			sourceTree = "<group>";
+		};
+		8A34A1631E078E5F002151EE /* CommonService */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = CommonService;
+			sourceTree = "<group>";
+		};
+		8A34A1641E078E5F002151EE /* LoginService */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = LoginService;
+			sourceTree = "<group>";
+		};
+		93F17AD51DCD5AECAFE54A1B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4730AE28EA73428E5CB0FE4D /* Pods-RBooker.debug.xcconfig */,
+				B0D0A7C95FA54DC1CF8BD609 /* Pods-RBooker.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		B39460C300576C3ED84B16A0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				16C9122617FB7D3B8F12B8E4 /* Pods_RBooker.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8A34A12D1E07848D002151EE /* RBooker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8A34A1591E07848E002151EE /* Build configuration list for PBXNativeTarget "RBooker" */;
+			buildPhases = (
+				47C06DCC008D42DFFF999922 /* [CP] Check Pods Manifest.lock */,
+				8A34A12A1E07848D002151EE /* Sources */,
+				8A34A12B1E07848D002151EE /* Frameworks */,
+				8A34A12C1E07848D002151EE /* Resources */,
+				247A0FD4565500C307E03C9A /* [CP] Embed Pods Frameworks */,
+				F8852E8728D98D88BDA1A97A /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RBooker;
+			productName = RBooker;
+			productReference = 8A34A12E1E07848D002151EE /* RBooker.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8A34A1441E07848E002151EE /* RBookerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8A34A15C1E07848E002151EE /* Build configuration list for PBXNativeTarget "RBookerTests" */;
+			buildPhases = (
+				8A34A1411E07848E002151EE /* Sources */,
+				8A34A1421E07848E002151EE /* Frameworks */,
+				8A34A1431E07848E002151EE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8A34A1471E07848E002151EE /* PBXTargetDependency */,
+			);
+			name = RBookerTests;
+			productName = RBookerTests;
+			productReference = 8A34A1451E07848E002151EE /* RBookerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8A34A14F1E07848E002151EE /* RBookerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8A34A15F1E07848E002151EE /* Build configuration list for PBXNativeTarget "RBookerUITests" */;
+			buildPhases = (
+				8A34A14C1E07848E002151EE /* Sources */,
+				8A34A14D1E07848E002151EE /* Frameworks */,
+				8A34A14E1E07848E002151EE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8A34A1521E07848E002151EE /* PBXTargetDependency */,
+			);
+			name = RBookerUITests;
+			productName = RBookerUITests;
+			productReference = 8A34A1501E07848E002151EE /* RBookerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8A34A1261E07848D002151EE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = RB;
+				LastSwiftUpdateCheck = 0810;
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = "夏敏";
+				TargetAttributes = {
+					8A34A12D1E07848D002151EE = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = 4EQAQ47S7F;
+						ProvisioningStyle = Automatic;
+					};
+					8A34A1441E07848E002151EE = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 8A34A12D1E07848D002151EE;
+					};
+					8A34A14F1E07848E002151EE = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 8A34A12D1E07848D002151EE;
+					};
+				};
+			};
+			buildConfigurationList = 8A34A1291E07848D002151EE /* Build configuration list for PBXProject "RBooker" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8A34A1251E07848D002151EE;
+			productRefGroup = 8A34A12F1E07848D002151EE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8A34A12D1E07848D002151EE /* RBooker */,
+				8A34A1441E07848E002151EE /* RBookerTests */,
+				8A34A14F1E07848E002151EE /* RBookerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8A34A12C1E07848D002151EE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8A34A13F1E07848D002151EE /* LaunchScreen.storyboard in Resources */,
+				8A34A13C1E07848D002151EE /* Assets.xcassets in Resources */,
+				8A34A1371E07848D002151EE /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8A34A1431E07848E002151EE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8A34A14E1E07848E002151EE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		247A0FD4565500C307E03C9A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RBooker/Pods-RBooker-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		47C06DCC008D42DFFF999922 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		F8852E8728D98D88BDA1A97A /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RBooker/Pods-RBooker-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8A34A12A1E07848D002151EE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8A1033AF1E0E6966007E401B /* RBViewController.swift in Sources */,
+				8A34A13A1E07848D002151EE /* RBooker.xcdatamodeld in Sources */,
+				8A1033B11E0E69C5007E401B /* RBWelcomeController.swift in Sources */,
+				8A1033B31E0E738B007E401B /* RBLoginController.swift in Sources */,
+				8A34A1341E07848D002151EE /* ViewController.swift in Sources */,
+				8A34A1321E07848D002151EE /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8A34A1411E07848E002151EE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8A34A14A1E07848E002151EE /* RBookerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8A34A14C1E07848E002151EE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8A34A1551E07848E002151EE /* RBookerUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8A34A1471E07848E002151EE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8A34A12D1E07848D002151EE /* RBooker */;
+			targetProxy = 8A34A1461E07848E002151EE /* PBXContainerItemProxy */;
+		};
+		8A34A1521E07848E002151EE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8A34A12D1E07848D002151EE /* RBooker */;
+			targetProxy = 8A34A1511E07848E002151EE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8A34A1351E07848D002151EE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8A34A1361E07848D002151EE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8A34A13D1E07848D002151EE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8A34A13E1E07848D002151EE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8A34A1571E07848E002151EE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8A34A1581E07848E002151EE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8A34A15A1E07848E002151EE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4730AE28EA73428E5CB0FE4D /* Pods-RBooker.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 4EQAQ47S7F;
+				INFOPLIST_FILE = RBooker/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Robert.RBooker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		8A34A15B1E07848E002151EE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B0D0A7C95FA54DC1CF8BD609 /* Pods-RBooker.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 4EQAQ47S7F;
+				INFOPLIST_FILE = RBooker/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Robert.RBooker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		8A34A15D1E07848E002151EE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = RBookerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Robert.RBookerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RBooker.app/RBooker";
+			};
+			name = Debug;
+		};
+		8A34A15E1E07848E002151EE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = RBookerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Robert.RBookerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RBooker.app/RBooker";
+			};
+			name = Release;
+		};
+		8A34A1601E07848E002151EE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = RBookerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Robert.RBookerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = RBooker;
+			};
+			name = Debug;
+		};
+		8A34A1611E07848E002151EE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = RBookerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Robert.RBookerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = RBooker;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8A34A1291E07848D002151EE /* Build configuration list for PBXProject "RBooker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8A34A1571E07848E002151EE /* Debug */,
+				8A34A1581E07848E002151EE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8A34A1591E07848E002151EE /* Build configuration list for PBXNativeTarget "RBooker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8A34A15A1E07848E002151EE /* Debug */,
+				8A34A15B1E07848E002151EE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8A34A15C1E07848E002151EE /* Build configuration list for PBXNativeTarget "RBookerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8A34A15D1E07848E002151EE /* Debug */,
+				8A34A15E1E07848E002151EE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8A34A15F1E07848E002151EE /* Build configuration list for PBXNativeTarget "RBookerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8A34A1601E07848E002151EE /* Debug */,
+				8A34A1611E07848E002151EE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		8A34A1381E07848D002151EE /* RBooker.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				8A34A1391E07848D002151EE /* RBooker.xcdatamodel */,
+			);
+			currentVersion = 8A34A1391E07848D002151EE /* RBooker.xcdatamodel */;
+			path = RBooker.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 8A34A1261E07848D002151EE /* Project object */;
+}
