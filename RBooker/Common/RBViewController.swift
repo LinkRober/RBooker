@@ -12,7 +12,7 @@ import SnapKit
 class RBViewController: UIViewController {
     
     override func viewDidLoad() {
-        self.view.backgroundColor = UIColor.white
         super.viewDidLoad()
+        self.view.backgroundColor = UIColor.white
     }
 }
