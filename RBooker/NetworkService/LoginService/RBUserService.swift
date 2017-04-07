@@ -14,6 +14,17 @@ class RBUserService {
     
     
     func login(userName:String,passWord:String,complete:@escaping (String) -> ()) {
+        
+        var basicUrl = "http://localhost:8080"
+        
+        let param = ["username":userName,"password":passWord]
+        for key in param.keys {
+            guard let value =  param[key] else {
+                return
+            }
+            basicUrl.append("?" + key + "=" + value)
+        }
+        
         let url:URL = URL(string: "http://localhost:8080")!
         let session = URLSession.shared
         var request = URLRequest(url:url)
