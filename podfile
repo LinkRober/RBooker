@@ -2,5 +2,6 @@ inhibit_all_warnings!
 platform:ios,'8.0'
 use_frameworks!
 target:RBooker do
-pod 'SnapKit','3.0.2' 
+pod 'SnapKit','3.0.2'
+pod 'RBRefresh'
 end

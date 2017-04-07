@@ -21,6 +21,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         let welcomVC = RBWelcomeController()
         self.window?.rootViewController = welcomVC
         self.window?.makeKeyAndVisible()
+//        RBUserService.shareService.login(userName: "", passWord: "") { (result) in
+//        }
         return true
     }
 

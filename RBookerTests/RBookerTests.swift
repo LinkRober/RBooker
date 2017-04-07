@@ -7,6 +7,7 @@
 //
 
 import XCTest
+
 @testable import RBooker
 
 class RBookerTests: XCTestCase {
@@ -22,6 +23,19 @@ class RBookerTests: XCTestCase {
     }
     
     func testExample() {
+        var data:String?
+        let loginExpectation = expectation(description: "login_expectation")
+        RBUserService.shareService.login(userName: "", passWord: "") { (result) in
+            data = result
+            loginExpectation.fulfill()
+        }
+        
+        self.waitForExpectations(timeout: 10) { (error) in
+            XCTAssertNotNil(data)
+        }
+        
+        
+        
         // This is an example of a functional test case.
         // Use XCTAssert and related functions to verify your tests produce the correct results.
     }
