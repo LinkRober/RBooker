@@ -16,7 +16,8 @@ class RBUserService {
     func login(userName:String,passWord:String,complete:@escaping (String) -> ()) {
         
         var basicUrl = "http://localhost:8080"
-        
+        let model = "/login/"
+        basicUrl = basicUrl.appending(model)
         let param = ["username":userName,"password":passWord]
         for key in param.keys {
             guard let value =  param[key] else {

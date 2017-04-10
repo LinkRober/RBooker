@@ -25,7 +25,7 @@ class RBookerTests: XCTestCase {
     func testExample() {
         var data:String?
         let loginExpectation = expectation(description: "login_expectation")
-        RBUserService.shareService.login(userName: "", passWord: "") { (result) in
+        RBUserService.shareService.login(userName: "xiamin", passWord: "123456") { (result) in
             data = result
             loginExpectation.fulfill()
         }
