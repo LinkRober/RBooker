@@ -27,8 +27,9 @@ class RBWelcomeController: RBViewController {
     }
 
     func next(sender:UIButton){
-        let welcomeVC = RBLoginController()
-        self.present(welcomeVC, animated: true, completion: nil)
+        let welcomeVC = RBHomeController()
+        let nav = RBNavigationController.init(rootViewController: welcomeVC)
+        self.present(nav, animated: true, completion: nil)
     }
     
 }

@@ -3,5 +3,5 @@ platform:ios,'8.0'
 use_frameworks!
 target:RBooker do
 pod 'SnapKit','3.0.2'
-pod 'RBRefresh'
+pod 'RBRefresh', :git => 'https://github.com/LinkRober/RBRefresh.git',:branch => 'master'
 end

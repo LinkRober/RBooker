@@ -34,7 +34,7 @@ class RBUserService {
         
         let task = session.dataTask(with: request) { (data, response, error) in
             guard let data = data,let _:URLResponse = response , error == nil else {
-                print(error)
+//                print(error)
                 return
             }
             

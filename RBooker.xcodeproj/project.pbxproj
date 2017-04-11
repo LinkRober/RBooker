@@ -19,6 +19,10 @@
 		8A34A13F1E07848D002151EE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8A34A13D1E07848D002151EE /* LaunchScreen.storyboard */; };
 		8A34A14A1E07848E002151EE /* RBookerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A34A1491E07848E002151EE /* RBookerTests.swift */; };
 		8A34A1551E07848E002151EE /* RBookerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A34A1541E07848E002151EE /* RBookerUITests.swift */; };
+		8A46F3411E9CB63400030475 /* RBDrawer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A46F3401E9CB63400030475 /* RBDrawer.swift */; };
+		8A46F3441E9CC94800030475 /* RBHomeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A46F3431E9CC94800030475 /* RBHomeController.swift */; };
+		8A46F3481E9CCACA00030475 /* RBNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A46F3471E9CCACA00030475 /* RBNavigationController.swift */; };
+		8A46F34A1E9CD84600030475 /* RBLeftController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A46F3491E9CD84600030475 /* RBLeftController.swift */; };
 		8A70D2741E973C3D0028CBA7 /* RBUserService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A70D2731E973C3D0028CBA7 /* RBUserService.swift */; };
 /* End PBXBuildFile section */
 
@@ -59,6 +63,10 @@
 		8A34A1501E07848E002151EE /* RBookerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RBookerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8A34A1541E07848E002151EE /* RBookerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RBookerUITests.swift; sourceTree = "<group>"; };
 		8A34A1561E07848E002151EE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8A46F3401E9CB63400030475 /* RBDrawer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RBDrawer.swift; sourceTree = "<group>"; };
+		8A46F3431E9CC94800030475 /* RBHomeController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RBHomeController.swift; sourceTree = "<group>"; };
+		8A46F3471E9CCACA00030475 /* RBNavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RBNavigationController.swift; sourceTree = "<group>"; };
+		8A46F3491E9CD84600030475 /* RBLeftController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RBLeftController.swift; sourceTree = "<group>"; };
 		8A70D2731E973C3D0028CBA7 /* RBUserService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RBUserService.swift; sourceTree = "<group>"; };
 		B0D0A7C95FA54DC1CF8BD609 /* Pods-RBooker.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RBooker.release.xcconfig"; path = "Pods/Target Support Files/Pods-RBooker/Pods-RBooker.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -109,6 +117,7 @@
 			isa = PBXGroup;
 			children = (
 				8A1033AE1E0E6966007E401B /* RBViewController.swift */,
+				8A46F3471E9CCACA00030475 /* RBNavigationController.swift */,
 			);
 			path = Common;
 			sourceTree = "<group>";
@@ -138,6 +147,8 @@
 		8A34A1301E07848D002151EE /* RBooker */ = {
 			isa = PBXGroup;
 			children = (
+				8A46F3421E9CC91800030475 /* Home */,
+				8A46F33E1E9CB37600030475 /* RBLib */,
 				8A1033AD1E0E6927007E401B /* Common */,
 				8A1033AC1E0E68EE007E401B /* Welcome */,
 				8A1033AB1E0E68A0007E401B /* LoginManger */,
@@ -195,6 +206,31 @@
 				8A70D2731E973C3D0028CBA7 /* RBUserService.swift */,
 			);
 			path = LoginService;
+			sourceTree = "<group>";
+		};
+		8A46F33E1E9CB37600030475 /* RBLib */ = {
+			isa = PBXGroup;
+			children = (
+				8A46F33F1E9CB39A00030475 /* RBDrawerController */,
+			);
+			path = RBLib;
+			sourceTree = "<group>";
+		};
+		8A46F33F1E9CB39A00030475 /* RBDrawerController */ = {
+			isa = PBXGroup;
+			children = (
+				8A46F3401E9CB63400030475 /* RBDrawer.swift */,
+			);
+			path = RBDrawerController;
+			sourceTree = "<group>";
+		};
+		8A46F3421E9CC91800030475 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				8A46F3431E9CC94800030475 /* RBHomeController.swift */,
+				8A46F3491E9CD84600030475 /* RBLeftController.swift */,
+			);
+			path = Home;
 			sourceTree = "<group>";
 		};
 		8A70D26F1E9735960028CBA7 /* PersionService */ = {
@@ -295,7 +331,7 @@
 			attributes = {
 				CLASSPREFIX = RB;
 				LastSwiftUpdateCheck = 0810;
-				LastUpgradeCheck = 0810;
+				LastUpgradeCheck = 0820;
 				ORGANIZATIONNAME = "夏敏";
 				TargetAttributes = {
 					8A34A12D1E07848D002151EE = {
@@ -417,11 +453,15 @@
 			files = (
 				8A70D2741E973C3D0028CBA7 /* RBUserService.swift in Sources */,
 				8A1033AF1E0E6966007E401B /* RBViewController.swift in Sources */,
+				8A46F3411E9CB63400030475 /* RBDrawer.swift in Sources */,
 				8A34A13A1E07848D002151EE /* RBooker.xcdatamodeld in Sources */,
 				8A1033B11E0E69C5007E401B /* RBWelcomeController.swift in Sources */,
 				8A1033B31E0E738B007E401B /* RBLoginController.swift in Sources */,
+				8A46F3441E9CC94800030475 /* RBHomeController.swift in Sources */,
+				8A46F34A1E9CD84600030475 /* RBLeftController.swift in Sources */,
 				8A34A1341E07848D002151EE /* ViewController.swift in Sources */,
 				8A34A1321E07848D002151EE /* AppDelegate.swift in Sources */,
+				8A46F3481E9CCACA00030475 /* RBNavigationController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -494,6 +534,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -543,6 +584,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
