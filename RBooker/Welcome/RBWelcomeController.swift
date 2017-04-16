@@ -27,8 +27,10 @@ class RBWelcomeController: RBViewController {
     }
 
     func next(sender:UIButton){
-        let welcomeVC = RBHomeController()
-        let nav = RBNavigationController.init(rootViewController: welcomeVC)
+        let homeVC = RBHomeController()
+        let nav = RBNavigationController.init(navigationBarClass: nil, toolbarClass: nil)
+        nav.RBNavigationdelegate = homeVC
+        nav.viewControllers = [homeVC]
         self.present(nav, animated: true, completion: nil)
     }
     

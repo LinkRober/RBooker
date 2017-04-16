@@ -19,6 +19,8 @@
 		8A34A13F1E07848D002151EE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8A34A13D1E07848D002151EE /* LaunchScreen.storyboard */; };
 		8A34A14A1E07848E002151EE /* RBookerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A34A1491E07848E002151EE /* RBookerTests.swift */; };
 		8A34A1551E07848E002151EE /* RBookerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A34A1541E07848E002151EE /* RBookerUITests.swift */; };
+		8A46CECD1EA0A0D30025D227 /* RBHomeNavigationBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A46CECC1EA0A0D30025D227 /* RBHomeNavigationBar.swift */; };
+		8A46CECF1EA0A2E60025D227 /* RBViewTool.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A46CECE1EA0A2E60025D227 /* RBViewTool.swift */; };
 		8A46F3411E9CB63400030475 /* RBDrawer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A46F3401E9CB63400030475 /* RBDrawer.swift */; };
 		8A46F3441E9CC94800030475 /* RBHomeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A46F3431E9CC94800030475 /* RBHomeController.swift */; };
 		8A46F3481E9CCACA00030475 /* RBNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A46F3471E9CCACA00030475 /* RBNavigationController.swift */; };
@@ -63,6 +65,8 @@
 		8A34A1501E07848E002151EE /* RBookerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RBookerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8A34A1541E07848E002151EE /* RBookerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RBookerUITests.swift; sourceTree = "<group>"; };
 		8A34A1561E07848E002151EE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8A46CECC1EA0A0D30025D227 /* RBHomeNavigationBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RBHomeNavigationBar.swift; sourceTree = "<group>"; };
+		8A46CECE1EA0A2E60025D227 /* RBViewTool.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RBViewTool.swift; sourceTree = "<group>"; };
 		8A46F3401E9CB63400030475 /* RBDrawer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RBDrawer.swift; sourceTree = "<group>"; };
 		8A46F3431E9CC94800030475 /* RBHomeController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RBHomeController.swift; sourceTree = "<group>"; };
 		8A46F3471E9CCACA00030475 /* RBNavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RBNavigationController.swift; sourceTree = "<group>"; };
@@ -212,6 +216,8 @@
 			isa = PBXGroup;
 			children = (
 				8A46F33F1E9CB39A00030475 /* RBDrawerController */,
+				8A46CECC1EA0A0D30025D227 /* RBHomeNavigationBar.swift */,
+				8A46CECE1EA0A2E60025D227 /* RBViewTool.swift */,
 			);
 			path = RBLib;
 			sourceTree = "<group>";
@@ -457,6 +463,8 @@
 				8A34A13A1E07848D002151EE /* RBooker.xcdatamodeld in Sources */,
 				8A1033B11E0E69C5007E401B /* RBWelcomeController.swift in Sources */,
 				8A1033B31E0E738B007E401B /* RBLoginController.swift in Sources */,
+				8A46CECD1EA0A0D30025D227 /* RBHomeNavigationBar.swift in Sources */,
+				8A46CECF1EA0A2E60025D227 /* RBViewTool.swift in Sources */,
 				8A46F3441E9CC94800030475 /* RBHomeController.swift in Sources */,
 				8A46F34A1E9CD84600030475 /* RBLeftController.swift in Sources */,
 				8A34A1341E07848D002151EE /* ViewController.swift in Sources */,

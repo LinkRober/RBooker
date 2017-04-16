@@ -8,17 +8,13 @@
 
 import UIKit
 
-class RBHomeController: RBViewController {
+class RBHomeController: RBViewController,RBNavigationControllerDelegate {
 
     var presentAnimation = RBDrawer()
     
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        self.navigationItem.title = "home"
-        
-        self.navigationItem.leftBarButtonItem = UIBarButtonItem.init(barButtonSystemItem: .bookmarks, target: self, action:#selector(showLeftController))
-        
     }
 
     override func didReceiveMemoryWarning() {
@@ -33,6 +29,14 @@ class RBHomeController: RBViewController {
         leftVC.modalPresentationStyle = .fullScreen
         self.present(leftVC, animated: true, completion: nil)
     }
+    
+    //MARK: - RBNavigationControllerDelegate
+    func RBNavigationController(controller: RBNavigationController, type click: RBHomeSelectType) {
+        if click == .RBHomeSelectUserType {
+            showLeftController()
+        }
+    }
+    
 }
 
 extension RBHomeController:UIViewControllerTransitioningDelegate {
