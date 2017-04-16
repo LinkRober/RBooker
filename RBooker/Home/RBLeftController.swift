@@ -12,7 +12,7 @@ class RBLeftController: RBViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        self.view.backgroundColor = UIColor.black.withAlphaComponent(0.5)
+        self.view.backgroundColor = UIColor.white
         // Do any additional setup after loading the view.
     }
 

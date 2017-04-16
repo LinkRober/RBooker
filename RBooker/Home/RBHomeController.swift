@@ -44,4 +44,8 @@ extension RBHomeController:UIViewControllerTransitioningDelegate {
         presentAnimation.originFrame = CGRect.init(x: 0, y: 0, width: -(UIScreen.main.bounds.size.width), height: UIScreen.main.bounds.size.height)
         return presentAnimation
     }
+    
+//    func animationController(forDismissed dismissed: UIViewController) -> UIViewControllerAnimatedTransitioning? {
+//        <#code#>
+//    }
 }

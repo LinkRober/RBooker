@@ -28,14 +28,21 @@ class RBDrawer: NSObject,UIViewControllerAnimatedTransitioning {
         let snapshot = toVC.view.snapshotView(afterScreenUpdates: true)
         snapshot?.frame = initialFrame
         
+        let coverView = UIView.init(frame: UIScreen.main.bounds)
+        coverView.alpha = 0
+        coverView.backgroundColor = UIColor.black.withAlphaComponent(0.5)
+        
+        containerView.addSubview(coverView)
         containerView.addSubview(toVC.view)
         containerView.addSubview(snapshot!)
+        
         toVC.view.isHidden =  true
         
         let duartion = transitionDuration(using: transitionContext)
         UIView.animate(withDuration: duartion, animations: { 
             snapshot?.layer.frame = finialFrame
             toVC.view.frame = finialFrame
+            coverView.alpha = 1
         }) { (finished) in
             toVC.view.isHidden = false
             snapshot?.removeFromSuperview()
